@@ -1,6 +1,6 @@
 # Month of MERN Week 1 Task and Challenge
 
-## Task
+## Task ✅
 
 #### Build a page to view products
 

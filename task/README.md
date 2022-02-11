@@ -38,10 +38,10 @@
 ## Results
 
 - Page
-  <img src="./assets/Screenshot1.png">
+  <img src="./screenshots/Screenshot1.png">
 
 - On adding Product 1 to cart
-  <img src="./assets/Screenshot2.png">
+  <img src="./screenshots/Screenshot2.png">
 
 - On adding Product 2 to cart
-  <img src="./assets/Screenshot3.png">
+  <img src="./screenshots/Screenshot3.png">
