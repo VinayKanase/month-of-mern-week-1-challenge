@@ -1,0 +1,84 @@
+.Card {
+  /* width: ; */
+  width: 450px;
+  background: var(--color4);
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+.Card img {
+  width: 450px;
+  transition: all 0.3s ease;
+}
+.Card:hover img {
+  transform: scale(1.1);
+}
+.CardContent {
+  padding: 10px 20px 22px 20px;
+  position: absolute;
+  width: 100%;
+  background: var(--color2);
+  bottom: -65%;
+  box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.Card:hover .CardContent {
+  bottom: 0;
+}
+.CardContent .Row,
+.CardButtons,
+.Quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Row .Details span {
+  font-size: 22px;
+  font-weight: 500;
+}
+.Price {
+  font-weight: 600;
+  font-size: 25px;
+  color: var(--color1);
+}
+.CardButtons {
+  margin-top: 10px;
+}
+.CardButtons button {
+  outline: none;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 2px solid var(--color2);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.CardButtons .Btn1 {
+  background: var(--color1);
+  color: var(--color4);
+  width: 50%;
+  margin-right: 10px;
+}
+.CardButtons .Btn1:hover {
+  background: var(--color4);
+  color: var(--color1);
+  width: 50%;
+}
+.CardButtons .BtnType2 {
+  background: var(--color4);
+  color: var(--color1);
+  padding: 18px 15px;
+}
+.CardButtons .BtnType2:hover {
+  background: var(--color1);
+  color: var(--color4);
+}
+.Quantity {
+  width: 40%;
+  margin-left: 10px;
+}
+.Quantity span {
+  font-size: 20px;
+}
