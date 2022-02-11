@@ -1,6 +1,6 @@
 # E-commerce page to view products✅
 
-To see Completed task webiste [Click here]("./public/index.html")
+To see Completed task webiste [Click here](./public/index.html)
 
 1. Given an `array` of objects similar to:
 
