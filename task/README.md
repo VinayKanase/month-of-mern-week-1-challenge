@@ -34,3 +34,14 @@
 5. The general mock up of the UI screen is attached below:
 
 <img src = "assets/mockUI.jpeg">
+
+## Results
+
+- Page
+  <img src="./assets/Screenshot1.png">
+
+- On adding Product 1 to cart
+  <img src="./assets/Screenshot2.png">
+
+- On adding Product 2 to cart
+  <img src="./assets/Screenshot3.png">
