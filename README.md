@@ -12,7 +12,7 @@ To be completed before Sunday 13th February, 2022
 
 ---
 
-## Challenge
+## Challenge ✅
 
 #### Build a game - Fire, Water, Tree
 
