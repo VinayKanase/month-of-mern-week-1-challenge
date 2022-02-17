@@ -1,0 +1,119 @@
+.game {
+  margin: 20px 0;
+}
+
+.game__message {
+  margin-top: 10px;
+  text-align: center;
+  color: var(--color3);
+}
+
+.game__images {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  align-items: center;
+  min-height: 200px;
+}
+.game__images img {
+  width: 300px;
+  object-fit: cover;
+}
+.game__playerChoiceBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.game__playerChoiceBtns button {
+  margin: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.game__btn {
+  position: relative;
+  background: orangered;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  font-size: 1.4rem;
+  -webkit-box-shadow: -6px 6px 0 #992900;
+  box-shadow: -6px 6px 0 #992900;
+  outline: none;
+}
+
+.game__btn:hover {
+  background: #e63d00;
+}
+
+.game__btn:active {
+  background: #cc3600;
+  top: 3px;
+  left: -3px;
+  -webkit-box-shadow: -3px 3px 0 #992900;
+  box-shadow: -3px 3px 0 #992900;
+}
+
+.game__btn::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right: solid 6px #992900;
+  border-left-width: 0;
+  background: none;
+  top: 0;
+  left: -6px;
+}
+
+.game__btn:active::before {
+  border: 3px solid transparent;
+  border-right: solid 3px #992900;
+  border-left-width: 0;
+  left: -3px;
+}
+
+.game__btn::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top: solid 6px #992900;
+  border-bottom-width: 0;
+  background: none;
+  right: 0;
+  bottom: -6px;
+}
+
+.game__btn:active::after {
+  border: 3px solid transparent;
+  border-top: solid 3px #992900;
+  border-bottom-width: 0;
+  background: none;
+  right: 0;
+  bottom: -3px;
+}
+
+@media screen and (max-width: 580px) {
+  .game__images img {
+    width: 200px;
+  }
+  .game__playerChoiceBtns {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .game__images {
+    margin-top: 30px;
+  }
+  .game__images img {
+    width: 180px;
+  }
+}
